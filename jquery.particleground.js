@@ -79,8 +79,8 @@
       }, false);
 
       document.addEventListener('mousemove', function(e) {
-        mouseX = e.pageX;
-        mouseY = e.pageY;
+        mouseX = e.clientX;
+        mouseY = e.clientY;
       }, false);
 
       if (orientationSupport && !desktop) {
